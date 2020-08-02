@@ -3,7 +3,7 @@ import "./style.css"
 import Hero from "../components/Hero"
 import Row from "../components/Row"
 import Col from "../components/Col"
-import Container from "../components/Container";
+import Container from "../components/Container"
 
 function Contact(props) {
 
@@ -16,9 +16,28 @@ function Contact(props) {
       <h2 className="mb-5 text-center">Contact Me</h2>
         <Row><Col size="md-12"><p className="lead text-center">You can reach me at <a href="mailto:dougmoore@use.startmail.com">dougmoore@use.startmail.com</a></p></Col></Row>
         <Row><Col size="md-12"><p className="lead text-center">Find me on <a href="https://www.linkedin.com/in/doug-moore-dev/" target='_blank' rel='noopener noreferrer'>LinkedIn</a></p></Col></Row>
-        <Row><Col size="md-12"><p className="lead text-center">See my work on <a href="https://github.com/AllAroundD" target='_blank' rel='noopener noreferrer'>GitHub</a></p></Col></Row>
-        <Row><Col size="md-12"><p className="lead text-center">Download my {' '} <a href="../assets/DougMoore_Resume.pdf" download>Resume</a></p></Col></Row>
+        <Row><Col size="md-12"><p className="lead text-center">See my web work on <a href="https://github.com/AllAroundD" target='_blank' rel='noopener noreferrer'>GitHub</a></p></Col></Row>
+        <Row><Col size="md-12"><p className="lead text-center">Download my <a href="../assets/DougMoore_Resume.pdf" download>Resume</a></p></Col></Row>
       </Container>
+
+      <footer class="footer text-center">
+        <div class="container">
+            <ul class="list-inline mb-5">
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white" href="https://github.com/AllAroundD"
+                        target="_blank" rel='noopener noreferrer'>
+                        <span class="fa fa-github"></span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white mr-3"
+                        href="https://www.linkedin.com/in/doug-moore-dev/" target="_blank" rel='noopener noreferrer'>
+                        <span class="fa fa-linkedin"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
     </div>
   )
