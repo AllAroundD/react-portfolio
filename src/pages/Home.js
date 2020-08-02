@@ -8,7 +8,7 @@ export const Home = () => {
                 <div className="container text-center my-auto">
                     <h1 className="mb-1">My Portfolio</h1>
                     <h3 className="mb-5">
-                        <em>My Journey in Development</em>
+                        <em>My Journey in Web Development</em>
                     </h3>
                     <a className="btn btn-primary btn-xl" href="/about">Find Out More</a>
                 </div>
