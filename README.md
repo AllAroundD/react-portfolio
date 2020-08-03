@@ -12,7 +12,7 @@
   - [Questions](#Questions)
 
 ## Installation
-  For just using the application, there is no installation required. The application url is ***** *****.
+  For just using the application, there is no installation required. The application url is http://dougmoore.herokuapp.com/.
   For the local setup of this application, there are a few npm modules that are required (react, react-scripts, react-dom, etc.). Once the repository is cloned, typing 'npm install' at the command prompt will install all of the required modules.
   Once the user clones and runs the program, the application will open in a browser window.
   Here is an example of the command to run in development mode:
@@ -20,13 +20,13 @@
   To run local production mode, type 'npm start', then open a browser tab and go to 'http://localhost:5000'.
 
 ## Usage
-  For just using the application, the application url ***** ***** is where the application resides.
+  For just using the application, the application url http://dougmoore.herokuapp.com/ is where the application resides.
   If installing locally, see the installation steps above to install and then run the application to open a browser window/tab.
 
   react-portfolio is my updated portfolio built using React.
 
-  Here is an example of the application in action:
-  ![employee directory demo](./public/assets/img/react-portfolio-demo.gif)
+  Here is an example of my portfolio in action:
+  ![Portfolio demo](./public/assets/img/react-portfolio-demo.gif)
 
 ## License
   [MIT](LICENSE)
