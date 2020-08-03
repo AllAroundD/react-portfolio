@@ -26,7 +26,7 @@
   react-portfolio is my updated portfolio built using React.
 
   Here is an example of my portfolio in action:
-  ![Portfolio demo](./public/assets/img/react-portfolio-demo.gif)
+  ![Portfolio demo](./src/public/assets/img/react-portfolio-demo.gif)
 
 ## License
   [MIT](LICENSE)
